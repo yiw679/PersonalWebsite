@@ -1,0 +1,40 @@
+.parallax {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: 
+    url('./images/csharp.png'), 
+    url('./images/react.png'), 
+    url('./images/java.png'), 
+    url('./images/googlecloud.png'), 
+    url('./images/firebase.png'), 
+    url('./images/unity.png'), 
+    url('./images/github.png'), 
+    url('./images/android.png');
+    background-repeat: no-repeat;
+    background-position: 
+    10% 60%, 
+    5% 30%, 
+    90% 90%, 
+    100% 40%, 
+    80% 15%, 
+    50% 80%, 
+    40% 10%, 
+    15% 90%;
+    background-size: 3em;
+    animation: float 6s ease-in-out infinite;
+    overflow: hidden;
+	transform: translatey(0px);
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}

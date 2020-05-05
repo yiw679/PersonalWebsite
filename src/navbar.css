@@ -1,0 +1,149 @@
+
+.navBar {
+    position: absolute;
+    transition: width 0.1s ease;
+    background-color: purple;
+    right: 0;
+    width: 0.1em;
+    height: 20vh;
+    z-index: 1000;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+.navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.navItem {
+    width: 100%;
+}
+
+.navLink {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 1.5em;
+    color: var(--text-primary);
+    text-decoration: none!important;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+
+
+.navLink svg {
+    width: 1em;
+    min-width: 1em;
+    margin-right: 1em;
+}
+
+.navLink:hover {
+    filter: grayscale(0%) opacity(1);
+    color: var(--text-secondary); 
+    transition: background-color var(--transition-speed);
+}
+
+.color-pri {
+    fill: #FFBC54;
+}
+
+.color-sec {
+    fill: #FC9E0C;
+}
+
+.color-pri,
+.color-sec {
+    transition: var(--transition-speed);
+}
+
+.logo {
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--text-primary);
+    font-size: 1rem;
+    letter-spacing: 0.3ch;
+}
+
+.logo svg {
+    transform: rotate(0deg);
+    transition: transform var(--transition-speed);
+}
+
+.navText {
+    display: inline;
+    visibility: hidden;
+    opacity: 0;
+    margin: 0 1rem 0 1rem;
+}
+
+.navBar:hover .navText {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity var(--transition-speed);
+}
+
+.navBar:hover .navLink {
+    background-color: honeydew;
+    height: 3em;
+    transition: background-color var(--transition-speed);
+    transition: height var(--transition-speed);
+}
+
+.navBarScroll {
+    position: fixed;
+    top: 0;
+}
+
+.navBar:hover .logo svg {
+    transform: rotate(-180deg);
+}
+
+
+
+/*@media only screen and (max-width: 600px) {
+    .navBar {
+        bottom: 0;
+        width: 100vw;
+        height: var(--nav-bar-width);
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .navList {
+        flex-direction: row;
+    }
+
+    .navLink {
+        justify-content: center;
+    }
+
+    .navBar:hover .logo svg {
+        transform: rotate(-90deg);
+    }
+
+    .logo {
+        margin-bottom: 0rem;
+    }
+}*/
+
+/*@media only screen and (min-width: 600px) {
+    .navBar {
+
+    }
+
+    .navBar:hover {
+
+    }
+
+
+}*/

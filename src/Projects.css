@@ -1,0 +1,54 @@
+.project {
+    position: relative;
+    background: var(--body-bg-2);
+    overflow: hidden;
+    font-family: Electrolize;
+    font-weight: 100;
+    color: #595959;
+}
+
+.project h2 {
+
+    text-align: center;
+    margin: 3em 0 1em 0;
+}
+
+.roww {
+
+    justify-content: center;
+}
+
+.coll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coll img,
+.colr img {
+    width: 70%;
+    margin-bottom: 10%;
+    max-width: 400px;
+}
+
+@media only screen and (min-width: 600px) {
+    .roww {
+        display: flex;
+    }
+
+    .project {
+        height: 100vh;
+    }
+}
+  
+@media only screen and (max-width: 600px) {
+    .project {
+        height: 100%;
+    }
+}

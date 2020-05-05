@@ -1,0 +1,33 @@
+.holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.svgDown {
+    position: absolute;
+    width: 6vw;
+    max-width: 30px;
+    fill: #939292;
+}
+
+.svgUp {
+    position: absolute;
+    top: 1.5vh;
+    width: 6vw;
+    max-width: 30px;
+    fill: #939292;
+}
+
+@media only screen and (min-width: 600px) {
+    .svgDown {
+        top: 94vh;
+    }
+}
+  
+@media only screen and (max-width: 600px) {
+    .svgDown {
+        top: 96%;
+    }
+}
