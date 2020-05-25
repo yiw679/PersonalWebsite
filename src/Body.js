@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import NavBar from './NavBar.js'
-import Profile from './Profile.js'
-import Projects from './Projects.js'
+import NavBar from './NavBar'
+import Profile from './Profile'
+import Projects from './Projects'
+import Experience from './Experience'
+import Contact from './Contact'
 import './body.css'
 
 export class Body extends Component {
@@ -51,7 +53,8 @@ export class Body extends Component {
                 <main>
                     <Profile/>
                     <Projects/>
-                    <Profile/>
+                    <Experience/>
+                    <Contact/>
                 </main>
             </div>
         )

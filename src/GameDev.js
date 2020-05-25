@@ -18,29 +18,29 @@ export class GameDev extends Component {
     render() {
         return (
             <div className="modal fade" id="gameDevDetail" tabIndex="-1" role="dialog" aria-labelledby="gameDevDetailLabel" aria-hidden="true">
-                <div className="modal-dialog modal-dialog-centered" role="document">
+                <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="gameDevDetailLabel">Detective Storyline GameDev</h5>
+                            <h3 className="modal-title" id="gameDevDetailLabel">Detective Storyline GameDev</h3>
                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div className="modal-body">
-                        <h5 style={blockStyle}>General Vision</h5>
+                        <h2 style={blockStyle}>General Vision</h2>
                         <p>Player (as the detective) try to solve crime scenes by hearing stories, collecting evidences and making judgements. This game is meant to submerge the player in crime scenes and encourage them to think carefully and connect evidences to find the criminal.</p>
-                        <h5 style={blockStyle}>Current Progress</h5>
+                        <h2 style={blockStyle}>Current Progress</h2>
                         <p>Finished the first level</p>
-                        <h5 style={blockStyle}>Systems Implemented</h5>
+                        <h2 style={blockStyle}>Systems Implemented</h2>
                         <p>Global Mouseclick Handling System</p>
                         <p>NPC AI System</p>
                         <p>Inventory System</p>
-                        <h5 style={blockStyle}>In Game Captures</h5>
+                        <h2 style={blockStyle}>In Game Captures</h2>
                         <img src={capture1} style = {captureStyle} alt='gamecap1'></img>
                         <img src={capture2} style = {captureStyle} alt='gamecap2'></img>
                         <img src={capture3} style = {captureStyle} alt='gamecap3'></img>
                         <img src={capture4} style = {captureStyle} alt='gamecap4'></img>
-                        <h5 style={blockStyle}>Resources Used from Unity Asset Store</h5>
+                        <h2 style={blockStyle}>Resources Used from Unity Asset Store</h2>
                         <p>Polygon SciFi City Pack --by Synty Studio</p>
                         <p>Everyday motion pack --by Gizmozman</p>
                         <p>Villager animations pack --by Kevin Iglesias</p>

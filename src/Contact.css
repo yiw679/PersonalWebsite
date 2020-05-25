@@ -1,0 +1,20 @@
+.contact {
+    height: 100vh;
+    position: relative;
+    background: var(--body-bg-2);
+    overflow: hidden;
+    font-family: Electrolize;
+    font-weight: 100;
+    color: #595959;
+}
+
+.socialBtns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialBtns > * {
+    margin: 1em;
+}

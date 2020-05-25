@@ -21,7 +21,7 @@
     50% 80%, 
     40% 10%, 
     15% 90%;
-    background-size: 3em;
+    background-size: 5em;
     animation: float 6s ease-in-out infinite;
     overflow: hidden;
 	transform: translatey(0px);

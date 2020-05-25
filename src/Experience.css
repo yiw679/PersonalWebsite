@@ -1,0 +1,33 @@
+.experience {
+    height: 100vh;
+    position: relative;
+    background: var(--body-bg-1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.expBox {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12vh;
+}
+
+.period {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    font-size: 1.5em;
+}
+
+.des {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    margin: 0 3em 0 1em;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.des > * {
+    margin-bottom: 1em;
+}

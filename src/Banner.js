@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import Parallax from './Parallax.js'
 import Bg from './images/bgi.jpg'
-import Scroller from './Scroller.js'
-
 
 const parallaxStyle =  {
     position: 'relative',
@@ -13,7 +11,7 @@ const parallaxStyle =  {
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundAttachment: 'fixed',
-    overflow:'hidden'
+    overflow:'hidden',
 }
 
 const nameStyle = {
@@ -21,6 +19,7 @@ const nameStyle = {
     width: '100%',
     fontFamily: 'Electrolize',
     fontWeight: '300',
+    fontSize: '5em',
     textAlign: 'center',
     paddingTop: '40vh',
     position:'absolute'
@@ -40,14 +39,13 @@ const subtitleStyle = {
 export class Banner extends Component {
     render() {
         return (
-            <div id='top' style={parallaxStyle} className='scrollMark'> 
-                <h1 className = 'display-4' style = {nameStyle}>
+            <div id='top' style={parallaxStyle}> 
+                <span className = 'display-4' style = {nameStyle}>
                     Yiming Wang
                     <hr style={divLineStyle}></hr>
                     <p style= {subtitleStyle}>Software Engineer</p>
-                </h1>
+                </span>
                 <Parallax/>
-                <Scroller/>
             </div>
         )
     }

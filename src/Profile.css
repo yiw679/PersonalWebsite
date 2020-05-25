@@ -4,17 +4,31 @@
     background: var(--body-bg-1);
     overflow: hidden;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatarIntro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+    margin: 3em 0 3em 0;
 }
 
 .avatar {
-    width: 20%;
-    max-width: 200px;
+    width: 30%;
+    max-width: 300px;
+    margin: 0 5vw 0 5vw;
 }
 
-.profile h2 {
-    font-family: Electrolize;
-    font-weight: 100;
-    color: #595959;
-    text-align: center;
-    margin: 3em 0 1em 0;
+.skillSet {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }

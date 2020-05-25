@@ -52,7 +52,7 @@ export class NavBar extends Component {
                         </a>
                     </li>
                     <li className='navItem'>
-                        <a href='#project' className='navLink'>
+                        <a href='#experience' className='navLink'>
                             <span className='navText'>Experiences</span>
                             <svg className="bi bi-briefcase-fill color-pri color-sec" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
   <path fillRule="evenodd" d="M0 12.5A1.5 1.5 0 001.5 14h13a1.5 1.5 0 001.5-1.5V6.85L8.129 8.947a.5.5 0 01-.258 0L0 6.85v5.65z" clipRule="evenodd"/>
@@ -61,7 +61,7 @@ export class NavBar extends Component {
                         </a>
                     </li>
                     <li className='navItem'>
-                        <a href='#project' className='navLink'>
+                        <a href='#contact' className='navLink'>
                         <span className='navText'>Contact</span>
                         <svg className="bi bi-chat-dots-fill color-pri color-sec" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
   <path fillRule="evenodd" d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 01-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 11-2 0 1 1 0 012 0zm4 0a1 1 0 11-2 0 1 1 0 012 0zm3 1a1 1 0 100-2 1 1 0 000 2z" clipRule="evenodd"/>

@@ -26,7 +26,6 @@ body::-webkit-scrollbar-thumb{
 
 @media only screen and (min-width: 600px) {
     main {
-        /*margin-left: var(--nav-bar-width); */
         margin: 0;
     }
     
